@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.Vision.runnerClass.RunnerClass
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.025 s <<< FAILURE! - in com.Vision.runnerClass.RunnerClass
+initializationError(com.Vision.runnerClass.RunnerClass)  Time elapsed: 0.006 s  <<< ERROR!
+cucumber.runtime.CucumberException: Unknown option: -Dtags
+

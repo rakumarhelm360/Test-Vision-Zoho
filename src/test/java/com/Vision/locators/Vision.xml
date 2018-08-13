@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locator>
+<!-- ===================================================Login=========================================================================================================== -->	
+		<Username><![CDATA[//*[@id='UserName']]]></Username>
+		<Password><![CDATA[//*[@id='Password']]]></Password>
+		<Login><![CDATA[//input[@type='submit']]]></Login>
+<!-- =================================================================================================================================================================== -->
+
+
+<!-- ===================================================Dashboard======================================================================================================= -->			
+		<MatterMgtDash><![CDATA[//div[contains(text(), 'Matter Management Dashboard')]]]></MatterMgtDash>
+		<BreadCrumb><![CDATA[//div[@id='dvLayOut']//div[@id='dvMenu']//button]]></BreadCrumb>
+		<RemoveMenu><![CDATA[//*[@id='dvMenu']/div[3]]]></RemoveMenu>
+<!-- =================================================================================================================================================================== -->
+
+
+		
+<!-- ==================================================Left Menu items================================================================================================== -->	
+		<Dashboard><![CDATA[//*[@id='dashboard']//span[contains(text(), 'Dashboard')]]]></Dashboard>
+		<CreateAnEstimate><![CDATA[//*[@id='createestimate']/div/span]]></CreateAnEstimate>
+		<MyEstimates><![CDATA[//*[@id='myopenestimates']/div/span]]></MyEstimates>
+		<MyMatters><![CDATA[//*[@id='mymatters']/div/span]]></MyMatters>
+		<MyTasks><![CDATA[//*[@id='mymattertasks']/div/span]]></MyTasks>
+		<ViewAllMatterEstimates><![CDATA[//*[@id='viewallmatters']/div/span]]></ViewAllMatterEstimates>
+		<Report><![CDATA[//*[@id='reports']/div/span]]></Report>
+		<MatterTemplates><![CDATA[//*[@id='mattertemplates']/div/span]]></MatterTemplates>
+		<HistoricalMatter><![CDATA[//*[@id='historicalmatters']/div/span]]></HistoricalMatter>
+		<SetMargin><![CDATA[//*[@id='setmargin']/div/span]]></SetMargin>
+		<Laverages><![CDATA[//*[@id='leverages']/div/span]]></Laverages>
+		<Security><![CDATA[//*[@id='security']/div/span]]></Security>
+		<About><![CDATA[//*[@id='btnAppVersion']/div/span]]></About>	
+		<FreshEstimateOpt><![CDATA[//*[@id='dvFreshEst']/label]]></FreshEstimateOpt>
+		<Next><![CDATA[//*[@id='next']]]></Next>
+<!-- =================================================================================================================================================================== -->
+
+
+
+<!-- =================================================Create New Estimate================================================================================================ -->		
+		<CreateEstimatePage><![CDATA[//*[@id='ViewEstimateController']//h4[contains(text(), 'Create Estimate')]]]></CreateEstimatePage>
+		<EstimateNameTxt><![CDATA[//*[@id='txtEstimateNameText']]]></EstimateNameTxt>
+		<ClientNameTxt><![CDATA[//*[@id='dvFontContent_CreateEstimate']/div[2]/div[2]/span[1]/span/input]]></ClientNameTxt>
+		<ClientName><![CDATA[//*[@id='ddlClientsName_listbox']/li[1]]]></ClientName>
+		<PracticeGroupTxt><![CDATA[//*[@id='dvFontContent_CreateEstimate']/div[3]/div[2]/span[1]/span/input]]></PracticeGroupTxt>
+		<PracticeGroupValue><![CDATA[//div[@id='ddlPracticeGroups-list']//ul[@id='ddlPracticeGroups_listbox']//li[1]]]></PracticeGroupValue>
+	
+		<TypeOfBudgetDropdown><![CDATA[//*[@id='dvFontContent_CreateEstimate']/div[4]/div[2]/span[1]/span/span[2]/span]]></TypeOfBudgetDropdown>
+		<TypeOfBudgetMatterBudget><![CDATA[//*[@id='ddlTypeofBudget_listbox']/li[contains(text(), 'Matter Budget')]]]></TypeOfBudgetMatterBudget>
+		<TypeOfBudgetMatterDetail><![CDATA[//*[@id='ddlTypeofBudget_listbox']/li[contains(text(), 'Matter Detail')]]]></TypeOfBudgetMatterDetail>
+	
+		<TemplateName><![CDATA[//*[@id='dvFontContent_CreateEstimate']/div[5]/div[2]/span[1]/span/input]]></TemplateName>
+		<TemplateValue><![CDATA[//*[@id='ddlTemplate_listbox']/li[1]]]></TemplateValue>
+	
+		<MatterTypeDropdown><![CDATA[//*[@id='dvFontContent_CreateEstimate']/div[6]/div[2]/span[1]/span/span[2]/span]]></MatterTypeDropdown>
+		<MatterTypeValue><![CDATA[//*[@id='ddlMatterType_listbox']//li[contains(text(), 'Hourly')]]]></MatterTypeValue>
+	
+		<RateTypeDropdown><![CDATA[//*[@id='dvFontContent_CreateEstimate']/div[7]/div[2]/span[1]/span/span[2]/span]]></RateTypeDropdown>
+		<RateTypeValue><![CDATA[//*[@id='ddlRates_listbox']/li[1]]]></RateTypeValue>
+	
+		<CurrencyName><![CDATA[//*[@id='dvFontContent_CreateEstimate']/div[8]/div[2]/span[1]/span/input]]></CurrencyName>
+		<CurrencyValue><![CDATA[//*[@id='ddlCurrency_listbox']/li[contains(text(), 'EURO')]]]></CurrencyValue>
+		<CreateNewEstimateBtn><![CDATA[//*[@id='btnCreateEstimate']]]></CreateNewEstimateBtn>
+<!-- =================================================================================================================================================================== -->
+
+
+
+<!-- ================================================Fee Plan Tab======================================================================================================= -->	
+		<FeePlantab><![CDATA[//div[@id='MatterBudgetController']//div[@id='tabFeePlan']]]></FeePlantab>
+		<TaskExpand><![CDATA[//*[@id='tasks']/table/tbody/tr[1]/td[1]/a]]></TaskExpand>
+		<AddNewRecord><![CDATA[//*[@id='tasks']/table/tbody/tr[2]/td[2]/div/div/a]]></AddNewRecord>
+		<Activity><![CDATA[//*[@id='tasks']/table//table/tbody/tr[1]/td[1]/input]]></Activity>
+		<FirstActivityLine><![CDATA[//*[@id='tasks']/table//table/tbody/tr]]></FirstActivityLine>
+		<ResourcesOutline><![CDATA[//*[@id='tasks']/table//table/tbody/tr[1]/td[2]]]></ResourcesOutline>
+		<ResourcesDropDown><![CDATA[//*[@id='tasks']/table//table/tbody/tr[1]/td[2]/span/span/span/span]]></ResourcesDropDown>
+		<FirstResource><![CDATA[//body//div[@id='ddl_Resources-list']//ul[@id='ddl_Resources_listbox']/li[1]]]></FirstResource>
+		<ResourcesDropdownSize><![CDATA[//div[@id='ddl_Resourcesundefined-list']//ul[@id='ddl_Resourcesundefined_listbox']/li]]></ResourcesDropdownSize>
+		
+		<viewEstiamte><![CDATA[//div[contains(@id, 'openestimates')]/div//table//tr[1]//i[@id='btnVwEstimate']]]></viewEstiamte>
+		<Administration><![CDATA[//span[contains(text(),'Administration')]]]></Administration>
+		<Hours1><![CDATA[//*[@id='tasks']/table//table/tbody/tr[1]/td[3]]]></Hours1>
+		<Hours2><![CDATA[//*[@id='tasks']/table//table/tbody/tr[1]/td[3]/span/span/input]]></Hours2>
+		<Hours3><![CDATA[//*[@id='tasks']/table//table/tbody/tr[1]/td[3]/span/span/input[2]]]></Hours3>
+		<StartDateField><![CDATA[//*[@id='tasks']/table//table/tbody/tr[1]/td[4]]]></StartDateField>
+		<FStartDateInput><![CDATA[//*[@id='tasks']/table//table/tbody/tr[1]//input[@id='StartDate']]]></FStartDateInput>
+		<EndDateField><![CDATA[//*[@id='tasks']/table//table/tbody/tr[1]/td[5]]]></EndDateField>
+		<FEndDateInput><![CDATA[//*[@id='tasks']/table//table/tbody/tr[1]/td[5]/span/span/input]]></FEndDateInput>
+		<DateError><![CDATA[//div[@id='toast-container']//div[contains(text(), 'Start Date should not be greater than End Date !')]]]></DateError>
+			
+		<StdRate1Row><![CDATA[//*[@id='tasks']/table//table/tbody/tr[1]/td[6]]]></StdRate1Row>
+		<ProposedRate1Row><![CDATA[//*[@id='tasks']/table//table/tbody/tr[1]/td[8]]]></ProposedRate1Row>
+		<ProposedRateFieldInput1Row><![CDATA[//*[@id='tasks']/table//table/tbody/tr[1]/td[8]//*[@id='txtProposeRate']]]></ProposedRateFieldInput1Row>
+		<HourlyBudget1Row><![CDATA[//*[@id='tasks']/table//table/tbody/tr[1]/td[9]]]></HourlyBudget1Row>
+		<ActivityRow><![CDATA[//div[@id='grid']/table/tbody/tr[2]//*[@id='tasks']//div[contains(@id, "taskDetail")]//table/tbody/tr]]></ActivityRow>
+<!-- =================================================================================================================================================================== -->
+		<Phase2><![CDATA[//*[@id='grid']/table/tbody/tr[3]]]></Phase2>
+		<Phase2Task1Expand><![CDATA[//*[@id='grid']/table/tbody/tr[4]/td[2]/div/table/tbody/tr[1]/td[1]/a]]></Phase2Task1Expand>
+		<Phase2Task1><![CDATA[//*[@id='grid']/table/tbody/tr[4]]]></Phase2Task1>
+		<Phase2Task1AddRecordBtn><![CDATA[//*[@id='grid']/table/tbody/tr[4]/td[2]/div/table/tbody/tr[2]/td[2]/div[1]//*[text() = 'Add new record']]]></Phase2Task1AddRecordBtn>
+		<Phase2Task1Rows><![CDATA[//*[@id='grid']/table/tbody/tr[4]/td[2]/div/table/tbody/tr[2]/td[2]/div[1]//table/tbody/tr]]></Phase2Task1Rows>
+		<Phase1Row6><![CDATA[//*[@id='tasks']/table//table/tbody/tr[6]]]></Phase1Row6>
+		<Phase2Row1Activity1><![CDATA[//*[@id='grid']/table/tbody/tr[4]/td[2]/div/table/tbody/tr[2]/td[2]/div[1]//table/tbody/tr[1]/td[1]/input]]></Phase2Row1Activity1>
+		<Phase1Row6Activity1><![CDATA[//*[@id='tasks']/table//table/tbody/tr[6]/td[1]/input]]></Phase1Row6Activity1>
+		<Phase2Row1ResourceField><![CDATA[//*[@id='grid']/table/tbody/tr[4]/td[2]/div/table/tbody/tr[2]/td[2]/div[1]//table/tbody/tr[1]/td[2]]]></Phase2Row1ResourceField>
+		<Phase2Row1ResourceDropdown><![CDATA[//*[@id='grid']/table/tbody/tr[4]/td[2]/div/table/tbody/tr[2]/td[2]/div[1]//table/tbody/tr[1]/td[2]/span/span/span]]></Phase2Row1ResourceDropdown>
+		<Phase1Row6ResourceOutL><![CDATA[//*[@id='tasks']/table//table/tbody/tr[6]/td[2]]]></Phase1Row6ResourceOutL>
+		<Phase1Row6Dropdown><![CDATA[//*[@id='tasks']/table//table/tbody/tr[6]/td[2]/span/span/span/span]]></Phase1Row6Dropdown>
+		<Phase2Row1hourly1Field><![CDATA[//*[@id='grid']/table/tbody/tr[4]/td[2]/div/table/tbody/tr[2]/td[2]/div[1]//table/tbody/tr[1]/td[3]]]></Phase2Row1hourly1Field>
+		<Phase2Row1hourlyValue><![CDATA[//*[@id='grid']/table/tbody/tr[4]/td[2]/div/table/tbody/tr[2]/td[2]/div[1]//table/tbody/tr[1]/td[3]/span/span/input[2]]]></Phase2Row1hourlyValue>
+		<Phase1Row6HourlyF><![CDATA[//*[@id='tasks']/table//table/tbody/tr[6]/td[3]]]></Phase1Row6HourlyF>
+		<Phase1Row6HourlyV><![CDATA[//*[@id='tasks']/table//table/tbody/tr[6]/td[3]/span/span/input[2]]]></Phase1Row6HourlyV>
+		<Phase2Row1ProposedRate><![CDATA[//*[@id='grid']/table/tbody/tr[4]/td[2]/div/table/tbody/tr[2]/td[2]/div[1]//table/tbody/tr[1]/td[8]]]></Phase2Row1ProposedRate>
+		<Phase2Row1ProPoseValue><![CDATA[//*[@id='grid']/table/tbody/tr[4]/td[2]/div/table/tbody/tr[2]/td[2]/div[1]//table/tbody/tr[1]/td[8]/span/span/input[2]]]></Phase2Row1ProPoseValue>
+		<Phase1Row6ProposeField><![CDATA[//*[@id='tasks']/table//table/tbody/tr[6]/td[8]]]></Phase1Row6ProposeField>
+		<Phase1Row6ProposedValue><![CDATA[//*[@id='tasks']/table//table/tbody/tr[6]/td[8]/span/span/input[2]]]></Phase1Row6ProposedValue>
+		
+		<Phase3Row3StdRate><![CDATA[//*[@id='grid']/table/tbody/tr[4]/td[2]/div/table/tbody/tr[2]/td[2]/div[1]//table/tbody/tr[1]/td[6]]]></Phase3Row3StdRate>
+		<Phase1Row6StdRate><![CDATA[//*[@id='tasks']/table//table/tbody/tr[6]/td[6]]]></Phase1Row6StdRate>
+		<Phase2Row1HourlyBudget><![CDATA[//*[@id='grid']/table/tbody/tr[4]/td[2]/div/table/tbody/tr[2]/td[2]/div[1]//table/tbody/tr[1]/td[9]]]></Phase2Row1HourlyBudget>
+		<Phase1Row6HourlyBudget><![CDATA[//*[@id='tasks']/table//table/tbody/tr[6]/td[9]]]></Phase1Row6HourlyBudget>
+<!-- =================================================================================================================================================================== -->
+
+<!-- =======================================================Second Activity Line ======================================================================================= -->
+		<SecondActivityLine><![CDATA[//*[@id='tasks']/table//table/tbody/tr[2]]]></SecondActivityLine>
+		<ActivitySecondRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[2]/td[1]/input]]></ActivitySecondRow>
+		<ResourcesOutlineSecondRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[2]/td[2]]]></ResourcesOutlineSecondRow>
+		<ResourcesDropDownSecondRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[2]/td[2]/span/span/span/span]]></ResourcesDropDownSecondRow>
+		<Hours1SecondRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[2]/td[3]]]></Hours1SecondRow>
+		<Hours3SecondRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[2]/td[3]/span/span/input[2]]]></Hours3SecondRow>
+		<StartDateFieldSecondRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[1]/td[4]]]></StartDateFieldSecondRow>
+		<StdRate2Row><![CDATA[//*[@id='tasks']/table//table/tbody/tr[2]/td[6]]]></StdRate2Row>
+		<HourlyBudget2Row><![CDATA[//*[@id='tasks']/table//table/tbody/tr[2]/td[9]]]></HourlyBudget2Row>
+		<btnSaveTaskDetails><![CDATA[//*[@id='btnSaveTaskDetails']]]></btnSaveTaskDetails>
+		<EstimateSavedConfirmation><![CDATA[//div[contains(text(),"Matter Budget Details saved successfully!")]]]></EstimateSavedConfirmation>
+<!-- =================================================================================================================================================================== -->
+
+
+<!-- =======================================================Third Activity Line ======================================================================================= -->
+		<ActivityLine3rd><![CDATA[//*[@id='tasks']/table//table/tbody/tr[3]]]></ActivityLine3rd>
+		<Activity3rdRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[3]/td[1]/input]]></Activity3rdRow>
+		<ResourcesOutline3rdRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[3]/td[2]]]></ResourcesOutline3rdRow>
+		<ResourcesDropDown3rdRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[3]/td[2]/span/span/span/span]]></ResourcesDropDown3rdRow>
+		<Hours13rdRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[3]/td[3]]]></Hours13rdRow>
+		<Hours33rdRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[3]/td[3]/span/span/input[2]]]></Hours33rdRow>
+		<StartDateField3rdRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[3]/td[4]]]></StartDateField3rdRow>
+		<StdRate3rdRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[3]/td[6]]]></StdRate3rdRow>
+		<HourlyBudget3rdRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[3]/td[9]]]></HourlyBudget3rdRow>
+		<StartDateField3rd><![CDATA[//*[@id='tasks']/table//table/tbody/tr[3]/td[4]]]></StartDateField3rd>
+		<StartDateInput3rd><![CDATA[//*[@id='tasks']/table//table/tbody/tr[3]//input[@id='StartDate']]]></StartDateInput3rd>
+		<EndDateField3rd><![CDATA[//*[@id='tasks']/table//table/tbody/tr[3]/td[5]]]></EndDateField3rd>
+		<EndDateInput3rd><![CDATA[//*[@id='tasks']/table//table/tbody/tr[3]/td[5]/span/span/input]]></EndDateInput3rd>
+		<ProposedRate3rdRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[3]/td[8]]]></ProposedRate3rdRow>
+		<ProposedRateFieldInput3rdRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[3]/td[8]//*[@id='txtProposeRate']]]></ProposedRateFieldInput3rdRow>
+<!-- =================================================================================================================================================================== -->
+
+<!-- =======================================================Fourth Activity Line ======================================================================================= -->
+		<ActivityLine4th><![CDATA[//*[@id='tasks']/table//table/tbody/tr[4]]]></ActivityLine4th>
+		<Activity4thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[4]/td[1]/input]]></Activity4thRow>
+		<ResourcesOutline4thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[4]/td[2]]]></ResourcesOutline4thRow>
+		<ResourcesDropDown4thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[4]/td[2]/span/span/span/span]]></ResourcesDropDown4thRow>
+		<Hours14thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[4]/td[3]]]></Hours14thRow>
+		<Hours34thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[4]/td[3]/span/span/input[2]]]></Hours34thRow>
+		<StartDateField4thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[4]/td[4]]]></StartDateField4thRow>
+		<StdRate4thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[4]/td[6]]]></StdRate4thRow>
+		<HourlyBudget4thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[4]/td[9]]]></HourlyBudget4thRow>
+		<StartDateField4th><![CDATA[//*[@id='tasks']/table//table/tbody/tr[4]/td[4]]]></StartDateField4th>
+		<StartDateInput4th><![CDATA[//*[@id='tasks']/table//table/tbody/tr[4]//input[@id='StartDate']]]></StartDateInput4th>
+		<EndDateField4th><![CDATA[//*[@id='tasks']/table//table/tbody/tr[4]/td[5]]]></EndDateField4th>
+		<EndDateInput4th><![CDATA[//*[@id='tasks']/table//table/tbody/tr[4]/td[5]/span/span/input]]></EndDateInput4th>
+		<ProposedRate4thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[4]/td[8]]]></ProposedRate4thRow>
+		<ProposedRateFieldInput4thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[4]/td[8]//*[@id='txtProposeRate']]]></ProposedRateFieldInput4thRow>
+<!-- =================================================================================================================================================================== -->
+
+<!-- =======================================================Fifth Activity Line ======================================================================================= -->
+		<ActivityLine5th><![CDATA[//*[@id='tasks']/table//table/tbody/tr[5]]]></ActivityLine5th>
+		<Activity5thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[5]/td[1]/input]]></Activity5thRow>
+		<ResourcesOutline5thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[5]/td[2]]]></ResourcesOutline5thRow>
+		<ResourcesDropDown5thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[5]/td[2]/span/span/span/span]]></ResourcesDropDown5thRow>
+		<Hours15thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[5]/td[3]]]></Hours15thRow>
+		<Hours35thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[5]/td[3]/span/span/input[2]]]></Hours35thRow>
+		<StartDateField5thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[5]/td[4]]]></StartDateField5thRow>
+		<StdRate5thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[5]/td[6]]]></StdRate5thRow>
+		<HourlyBudget5thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[5]/td[9]]]></HourlyBudget5thRow>
+		<StartDateField5th><![CDATA[//*[@id='tasks']/table//table/tbody/tr[5]/td[4]]]></StartDateField5th>
+		<StartDateInput5th><![CDATA[//*[@id='tasks']/table//table/tbody/tr[5]//input[@id='StartDate']]]></StartDateInput5th>
+		<EndDateField5th><![CDATA[//*[@id='tasks']/table//table/tbody/tr[5]/td[5]]]></EndDateField5th>
+		<EndDateInput5th><![CDATA[//*[@id='tasks']/table//table/tbody/tr[5]/td[5]/span/span/input]]></EndDateInput5th>
+		<ProposedRate5thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[5]/td[8]]]></ProposedRate5thRow>
+		<ProposedRateFieldInput5thRow><![CDATA[//*[@id='tasks']/table//table/tbody/tr[5]/td[8]//*[@id='txtProposeRate']]]></ProposedRateFieldInput5thRow>
+<!-- =================================================================================================================================================================== -->
+
+
+<!-- =======================================================Slider popup =============================================================================================== -->
+		<SliderDropdownIcon><![CDATA[//*[@id='matterDetailsCollpsd']/div[2]]]></SliderDropdownIcon>
+		<HourlyFeeBudgetAtSlider><![CDATA[//*[@id='tdFeeBudget']]]></HourlyFeeBudgetAtSlider>
+		<TotalHourlyFeeBudgetAtSlider><![CDATA[//*[@id='tdTotalFees']]]></TotalHourlyFeeBudgetAtSlider>
+		<ProposedBudgetAtSilder><![CDATA[[@id='spanProposedBudget']]]></ProposedBudgetAtSilder>
+		<CloseSliderDropdown><![CDATA[//*[@id='MatterBudgetController']/div[4]/div[5]]]></CloseSliderDropdown>
+<!-- =================================================================================================================================================================== -->
+		
+		
+		
+<!-- ===================================================Security======================================================================================================== -->
+		<FirmAdminElement><![CDATA[//span[contains(text(), 'Firm Admin')]]]></FirmAdminElement>
+<!-- =================================================================================================================================================================== -->
+
+
+<!--  ===================================================Role Tab======================================================================================================= -->
+		<SecurityDetail><![CDATA[//*[@id='dvSecurityTabs']//a[contains(text(), 'Roles')]]]></SecurityDetail>
+		<AddIcon><![CDATA[//*[@id='dvSearchRoles']/div/div/div[1]/i]]></AddIcon>
+		<AddRolePopup><![CDATA[//*[@id='userRoleWin_wnd_title']]]></AddRolePopup>
+		<RoleNameAtPopup><![CDATA[//*[@id='txtRoleNameText']]]></RoleNameAtPopup>
+		<DescriptionAtPopup><![CDATA[//*[@id='txtRoleDesc']]]></DescriptionAtPopup>
+		<SaveButtonAtPopup><![CDATA[//*[@id='dvAddRoles']//*[@id='btnSavePerm']]]></SaveButtonAtPopup>
+		<RandomRowToVerify><![CDATA[//*[@class='k-group k-treeview-lines']/li]]></RandomRowToVerify>
+		<RoleTab><![CDATA[//*[@id='dvSecurityTabs']//a[contains(text(), 'Roles')]]]></RoleTab>
+<!-- =================================================================================================================================================================== -->
+
+
+<!-- ==============================================Role to Permission Tab ============================================================================================== -->
+		<RoleToPerSearchField><![CDATA[//*[@id='dvRoleToPermissions']//*[@id='txtRole']]]></RoleToPerSearchField>
+		<PermissionSearchField><![CDATA[//*[@id='dvRoleToPermissions']//*[@id='txtPerm']]]></PermissionSearchField>
+		<RoleToPermissionTab><![CDATA[//*[@id='dvSecurityTabs']//a[contains(text(), 'Role to Permission')]]]></RoleToPermissionTab>
+		<SaveRoleToPermissionButton><![CDATA[//*[@id='btnSaveRoleToPermissions']]]></SaveRoleToPermissionButton>
+		<SaveRoleToPermissionConfirmation><![CDATA[//*[@id='toast-container']//div[text()='Data is  saved successfully !']]]></SaveRoleToPermissionConfirmation>
+<!-- =================================================================================================================================================================== -->
+
+
+<!-- =============================================Role to Professional================================================================================================== -->
+		<RoleToProfSearchField><![CDATA[//*[@id='dvRoleToTimeKeeper']//*[@id='txtusernameProf']]]></RoleToProfSearchField>
+		<TimekeeperSearchFieldR2P><![CDATA[//*[@id='dvRoleToTimeKeeper']//*[@id='txtusernameProf2']]]></TimekeeperSearchFieldR2P>
+		<RoleToProfessionalTab><![CDATA[//*[@id='dvSecurityTabs']//a[text() = 'Role to Professional']]]></RoleToProfessionalTab>
+		<SaveRoleToProfessionaButton><![CDATA[//*[@id='btnSaveRoleToTimeKeeper']]]></SaveRoleToProfessionaButton>
+		<SaveRoleToProfessionalConfirmation><![CDATA[//*[@id='toast-container']//div[text()='Data is  saved successfully !']]]>]</SaveRoleToProfessionalConfirmation>
+		<ErrorToast><![CDATA[//*[@id='toast-container']//div[text()='Terminus Vision Error:']]]></ErrorToast>
+		<ErrorMessageToast><![CDATA[//*[@id='toast-container']//div[contains(text(),'is already assigned to Role')]]]></ErrorMessageToast>
+<!-- =================================================================================================================================================================== -->
+
+
+<!-- =============================================User to Professional================================================================================================== -->
+		<UserToProfessionalSearchField><![CDATA[//*[@id='dvSearchUser']//*[@id='txtusernameProf']]]></UserToProfessionalSearchField>
+		<ProfSearchFieldU2P><![CDATA[//*[@id='dvSearchUser']//*[@id='txtusernameProf2']]]></ProfSearchFieldU2P>
+		<UserToProfessionalTab><![CDATA[//*[@id='dvSecurityTabs']//a[text() = 'User to Professional ']]]></UserToProfessionalTab>
+		<ProfessionalTotal><![CDATA[//div[@id='dvProfUsers']/table/tbody/tr/td[3]//ul[@id='lstProf']/li]]></ProfessionalTotal>
+		<SaveUserToProfessionalButton><![CDATA[//*[@id='btnProfUsers']]]></SaveUserToProfessionalButton>
+		<SaveUserToProfessionalConfirmation><![CDATA[//*[@id='toast-container']//div[text()='Data is  saved successfully !']]]></SaveUserToProfessionalConfirmation>
+<!-- =================================================================================================================================================================== -->
+
+
+<!-- ===============================================Widget to Role Tab================================================================================================== -->
+		<WidgetToRoleTab><![CDATA[//*[@id='dvSecurityTabs']//a[contains(text(), 'Widget to Role ')]]]></WidgetToRoleTab>
+		<WidgetSearchFieldW2R><![CDATA[//*[@id='dvRoleToWidgets']//*[@id='txtWidgets']]]></WidgetSearchFieldW2R>
+		<RoleToWidgetSearchField><![CDATA[//*[@id='dvRoleToWidgets']//*[@id='txtRoleToWidgets']]]></RoleToWidgetSearchField>
+		<SaveWidgetToRoleButton><![CDATA[//*[@id='btnSaveRoleToWidgets']]]></SaveWidgetToRoleButton>
+		<SaveWidgetToRoleConfirmation><![CDATA[//*[@id='toast-container']//div[text()='Data is  saved successfully !']]]></SaveWidgetToRoleConfirmation>
+		<WidgetSize><![CDATA[//ul[@id='lstWidgets']//li]]></WidgetSize>
+<!-- =================================================================================================================================================================== -->
+
+
+<!-- ===================================================Dashboard======================================================================================================= -->
+		<ProfDropdown><![CDATA[//*[@id='profDropdown']]]></ProfDropdown>
+		<GetProfItemSize><![CDATA[//*[@id='DashboardController']//ul[@class='dropdown-menu profDdListMenu noselect']/li]]></GetProfItemSize>
+		<OKFromWorning><![CDATA[//*[@id='customModalWindow_OK_button']]]></OKFromWorning>
+		<DashboardCount><![CDATA[//div[@id='dashboard']/div]]></DashboardCount>
+<!-- =================================================================================================================================================================== -->
+
+
+<!-- ===================================================Logout========================================================================================================== -->
+		<LogOff><![CDATA[//*[@id='lnkLoggOff']]]></LogOff>
+	
+</Locator>

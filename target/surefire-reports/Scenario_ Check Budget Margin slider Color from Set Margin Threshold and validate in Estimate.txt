@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Check Budget Margin slider Color from Set Margin Threshold and validate in Estimate
+-------------------------------------------------------------------------------
+Tests run: 95, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 454.987 s <<< FAILURE! - in Scenario: Check Budget Margin slider Color from Set Margin Threshold and validate in Estimate
+Then Validate "First TP" Dates with below entries(Scenario: Fee Plan,Cost Plan, Info, Third Party and What If Tabs)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Element Locator ://div[@id='toast-container']//div[contains(text(), 'Start Date should not be greater than End Date !')] Not found
+
+Scenario: Fee Plan,Cost Plan, Info, Third Party and What If Tabs  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Element Locator ://div[@id='toast-container']//div[contains(text(), 'Start Date should not be greater than End Date !')] Not found
+
+Scenario: Fee Plan,Cost Plan, Info, Third Party and What If Tabs  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'HELM-LAP024', ip: '10.1.60.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: driver.version: RemoteWebDriver
+
